@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.4.8](https://github.com/cestercian/cc-rs/compare/cc-v1.4.7...cc-v1.4.8) - 2026-09-25
+
+### Fixed
+
+- pass -Tp on MSVC for .cc so they are not treated as objects ([#1930](https://github.com/cestercian/cc-rs/pull/1930))
+
+### Other
+
+- remove License section from CONTRIBUTING.md ([#1942](https://github.com/cestercian/cc-rs/pull/1942))
+- add CONTRIBUTING.md and Conventional Commit PR title check ([#1938](https://github.com/cestercian/cc-rs/pull/1938))
+
 ### Fixed
 
 - Pass `-Tp` immediately before `.cc` sources on MSVC (not clang-cl) when compiling C++ so they are not treated as object files ([#1877](https://github.com/rust-lang/cc-rs/issues/1877))
